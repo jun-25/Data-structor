@@ -1,4 +1,4 @@
- class Main {
+class Main {
     public static void main(String[] args) {
         int[] arr = {7, 5, 2, 4, 3, 1, 9, 6, 0, 8};
         bubbleSort(arr);
@@ -7,7 +7,7 @@
         }
     }
 
-    // 선택정렬 알고리즘
+    // 버블정렬 알고리즘
     public static void bubbleSort(int[] arr) {
         for (int i = 0; i < arr.length-1; i++) {
             for (int j = 1; j < arr.length-i; j++) {
